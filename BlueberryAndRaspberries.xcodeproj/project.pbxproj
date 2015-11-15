@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF5230B31BF6B36500D763CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5230B21BF6B36500D763CB /* AppDelegate.swift */; };
-		AF5230B51BF6B36500D763CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5230B41BF6B36500D763CB /* ViewController.swift */; };
-		AF5230B81BF6B36500D763CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5230B61BF6B36500D763CB /* Main.storyboard */; };
-		AF5230BA1BF6B36500D763CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5230B91BF6B36500D763CB /* Assets.xcassets */; };
-		AF5230BD1BF6B36500D763CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5230BB1BF6B36500D763CB /* LaunchScreen.storyboard */; };
 		AF5230C81BF6B36500D763CB /* BlueberrieAndRaspberriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5230C71BF6B36500D763CB /* BlueberrieAndRaspberriesTests.swift */; };
 		AF5230D31BF6B36500D763CB /* BlueberrieAndRaspberriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5230D21BF6B36500D763CB /* BlueberrieAndRaspberriesUITests.swift */; };
+		AFD208241BF83F93000DE448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2081B1BF83F93000DE448 /* AppDelegate.swift */; };
+		AFD208251BF83F93000DE448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD2081C1BF83F93000DE448 /* Assets.xcassets */; };
+		AFD208261BF83F93000DE448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD2081E1BF83F93000DE448 /* LaunchScreen.storyboard */; };
+		AFD208271BF83F93000DE448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD208201BF83F93000DE448 /* Main.storyboard */; };
+		AFD208281BF83F93000DE448 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFD208221BF83F93000DE448 /* Info.plist */; };
+		AFD208291BF83F93000DE448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD208231BF83F93000DE448 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF5230AF1BF6B36500D763CB /* BlueberrieAndRaspberries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueberrieAndRaspberries.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF5230B21BF6B36500D763CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF5230B41BF6B36500D763CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF5230B71BF6B36500D763CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AF5230B91BF6B36500D763CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AF5230BC1BF6B36500D763CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AF5230BE1BF6B36500D763CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF5230C31BF6B36500D763CB /* BlueberrieAndRaspberriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueberrieAndRaspberriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5230AF1BF6B36500D763CB /* BlueberryAndRaspberries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueberryAndRaspberries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5230C31BF6B36500D763CB /* BlueberryAndRaspberries.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueberryAndRaspberries.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5230C71BF6B36500D763CB /* BlueberrieAndRaspberriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueberrieAndRaspberriesTests.swift; sourceTree = "<group>"; };
 		AF5230C91BF6B36500D763CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF5230CE1BF6B36500D763CB /* BlueberrieAndRaspberriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueberrieAndRaspberriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5230CE1BF6B36500D763CB /* BlueberryAndRaspberries.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueberryAndRaspberries.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5230D21BF6B36500D763CB /* BlueberrieAndRaspberriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueberrieAndRaspberriesUITests.swift; sourceTree = "<group>"; };
 		AF5230D41BF6B36500D763CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD2081B1BF83F93000DE448 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = BlueberryAndRaspberries/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		AFD2081C1BF83F93000DE448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BlueberryAndRaspberries/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		AFD2081F1BF83F93000DE448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFD208211BF83F93000DE448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		AFD208221BF83F93000DE448 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BlueberryAndRaspberries/Info.plist; sourceTree = SOURCE_ROOT; };
+		AFD208231BF83F93000DE448 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = BlueberryAndRaspberries/ViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +78,9 @@
 		AF5230A61BF6B36500D763CB = {
 			isa = PBXGroup;
 			children = (
-				AF5230B11BF6B36500D763CB /* BlueberrieAndRaspberries */,
-				AF5230C61BF6B36500D763CB /* BlueberrieAndRaspberriesTests */,
-				AF5230D11BF6B36500D763CB /* BlueberrieAndRaspberriesUITests */,
+				AF5230B11BF6B36500D763CB /* BlueberryAndRaspberries */,
+				AF5230C61BF6B36500D763CB /* BlueberryAndRaspberriesTests */,
+				AF5230D11BF6B36500D763CB /* BlueberryAndRaspberriesUITests */,
 				AF5230B01BF6B36500D763CB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,50 +88,62 @@
 		AF5230B01BF6B36500D763CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF5230AF1BF6B36500D763CB /* BlueberrieAndRaspberries.app */,
-				AF5230C31BF6B36500D763CB /* BlueberrieAndRaspberriesTests.xctest */,
-				AF5230CE1BF6B36500D763CB /* BlueberrieAndRaspberriesUITests.xctest */,
+				AF5230AF1BF6B36500D763CB /* BlueberryAndRaspberries.app */,
+				AF5230C31BF6B36500D763CB /* BlueberryAndRaspberries.xctest */,
+				AF5230CE1BF6B36500D763CB /* BlueberryAndRaspberries.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF5230B11BF6B36500D763CB /* BlueberrieAndRaspberries */ = {
+		AF5230B11BF6B36500D763CB /* BlueberryAndRaspberries */ = {
 			isa = PBXGroup;
 			children = (
-				AF5230B21BF6B36500D763CB /* AppDelegate.swift */,
-				AF5230B41BF6B36500D763CB /* ViewController.swift */,
-				AF5230B61BF6B36500D763CB /* Main.storyboard */,
-				AF5230B91BF6B36500D763CB /* Assets.xcassets */,
-				AF5230BB1BF6B36500D763CB /* LaunchScreen.storyboard */,
-				AF5230BE1BF6B36500D763CB /* Info.plist */,
+				AFD2081B1BF83F93000DE448 /* AppDelegate.swift */,
+				AFD2081C1BF83F93000DE448 /* Assets.xcassets */,
+				AFD2081D1BF83F93000DE448 /* Base.lproj */,
+				AFD208221BF83F93000DE448 /* Info.plist */,
+				AFD208231BF83F93000DE448 /* ViewController.swift */,
 			);
+			name = BlueberryAndRaspberries;
 			path = BlueberrieAndRaspberries;
 			sourceTree = "<group>";
 		};
-		AF5230C61BF6B36500D763CB /* BlueberrieAndRaspberriesTests */ = {
+		AF5230C61BF6B36500D763CB /* BlueberryAndRaspberriesTests */ = {
 			isa = PBXGroup;
 			children = (
 				AF5230C71BF6B36500D763CB /* BlueberrieAndRaspberriesTests.swift */,
 				AF5230C91BF6B36500D763CB /* Info.plist */,
 			);
+			name = BlueberryAndRaspberriesTests;
 			path = BlueberrieAndRaspberriesTests;
 			sourceTree = "<group>";
 		};
-		AF5230D11BF6B36500D763CB /* BlueberrieAndRaspberriesUITests */ = {
+		AF5230D11BF6B36500D763CB /* BlueberryAndRaspberriesUITests */ = {
 			isa = PBXGroup;
 			children = (
 				AF5230D21BF6B36500D763CB /* BlueberrieAndRaspberriesUITests.swift */,
 				AF5230D41BF6B36500D763CB /* Info.plist */,
 			);
+			name = BlueberryAndRaspberriesUITests;
 			path = BlueberrieAndRaspberriesUITests;
 			sourceTree = "<group>";
+		};
+		AFD2081D1BF83F93000DE448 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				AFD2081E1BF83F93000DE448 /* LaunchScreen.storyboard */,
+				AFD208201BF83F93000DE448 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = BlueberryAndRaspberries/Base.lproj;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF5230AE1BF6B36500D763CB /* BlueberrieAndRaspberries */ = {
+		AF5230AE1BF6B36500D763CB /* BlueberryAndRaspberries */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF5230D71BF6B36500D763CB /* Build configuration list for PBXNativeTarget "BlueberrieAndRaspberries" */;
+			buildConfigurationList = AF5230D71BF6B36500D763CB /* Build configuration list for PBXNativeTarget "BlueberryAndRaspberries" */;
 			buildPhases = (
 				AF5230AB1BF6B36500D763CB /* Sources */,
 				AF5230AC1BF6B36500D763CB /* Frameworks */,
@@ -140,14 +153,14 @@
 			);
 			dependencies = (
 			);
-			name = BlueberrieAndRaspberries;
+			name = BlueberryAndRaspberries;
 			productName = BlueberrieAndRaspberries;
-			productReference = AF5230AF1BF6B36500D763CB /* BlueberrieAndRaspberries.app */;
+			productReference = AF5230AF1BF6B36500D763CB /* BlueberryAndRaspberries.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AF5230C21BF6B36500D763CB /* BlueberrieAndRaspberriesTests */ = {
+		AF5230C21BF6B36500D763CB /* BlueberryAndRaspberriesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF5230DA1BF6B36500D763CB /* Build configuration list for PBXNativeTarget "BlueberrieAndRaspberriesTests" */;
+			buildConfigurationList = AF5230DA1BF6B36500D763CB /* Build configuration list for PBXNativeTarget "BlueberryAndRaspberriesTests" */;
 			buildPhases = (
 				AF5230BF1BF6B36500D763CB /* Sources */,
 				AF5230C01BF6B36500D763CB /* Frameworks */,
@@ -158,14 +171,14 @@
 			dependencies = (
 				AF5230C51BF6B36500D763CB /* PBXTargetDependency */,
 			);
-			name = BlueberrieAndRaspberriesTests;
+			name = BlueberryAndRaspberriesTests;
 			productName = BlueberrieAndRaspberriesTests;
-			productReference = AF5230C31BF6B36500D763CB /* BlueberrieAndRaspberriesTests.xctest */;
+			productReference = AF5230C31BF6B36500D763CB /* BlueberryAndRaspberries.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AF5230CD1BF6B36500D763CB /* BlueberrieAndRaspberriesUITests */ = {
+		AF5230CD1BF6B36500D763CB /* BlueberryAndRaspberriesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF5230DD1BF6B36500D763CB /* Build configuration list for PBXNativeTarget "BlueberrieAndRaspberriesUITests" */;
+			buildConfigurationList = AF5230DD1BF6B36500D763CB /* Build configuration list for PBXNativeTarget "BlueberryAndRaspberriesUITests" */;
 			buildPhases = (
 				AF5230CA1BF6B36500D763CB /* Sources */,
 				AF5230CB1BF6B36500D763CB /* Frameworks */,
@@ -176,9 +189,9 @@
 			dependencies = (
 				AF5230D01BF6B36500D763CB /* PBXTargetDependency */,
 			);
-			name = BlueberrieAndRaspberriesUITests;
+			name = BlueberryAndRaspberriesUITests;
 			productName = BlueberrieAndRaspberriesUITests;
-			productReference = AF5230CE1BF6B36500D763CB /* BlueberrieAndRaspberriesUITests.xctest */;
+			productReference = AF5230CE1BF6B36500D763CB /* BlueberryAndRaspberries.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +217,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF5230AA1BF6B36500D763CB /* Build configuration list for PBXProject "BlueberrieAndRaspberries" */;
+			buildConfigurationList = AF5230AA1BF6B36500D763CB /* Build configuration list for PBXProject "BlueberryAndRaspberries" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +230,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF5230AE1BF6B36500D763CB /* BlueberrieAndRaspberries */,
-				AF5230C21BF6B36500D763CB /* BlueberrieAndRaspberriesTests */,
-				AF5230CD1BF6B36500D763CB /* BlueberrieAndRaspberriesUITests */,
+				AF5230AE1BF6B36500D763CB /* BlueberryAndRaspberries */,
+				AF5230C21BF6B36500D763CB /* BlueberryAndRaspberriesTests */,
+				AF5230CD1BF6B36500D763CB /* BlueberryAndRaspberriesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +242,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF5230BD1BF6B36500D763CB /* LaunchScreen.storyboard in Resources */,
-				AF5230BA1BF6B36500D763CB /* Assets.xcassets in Resources */,
-				AF5230B81BF6B36500D763CB /* Main.storyboard in Resources */,
+				AFD208251BF83F93000DE448 /* Assets.xcassets in Resources */,
+				AFD208271BF83F93000DE448 /* Main.storyboard in Resources */,
+				AFD208261BF83F93000DE448 /* LaunchScreen.storyboard in Resources */,
+				AFD208281BF83F93000DE448 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF5230B51BF6B36500D763CB /* ViewController.swift in Sources */,
-				AF5230B31BF6B36500D763CB /* AppDelegate.swift in Sources */,
+				AFD208241BF83F93000DE448 /* AppDelegate.swift in Sources */,
+				AFD208291BF83F93000DE448 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,31 +296,31 @@
 /* Begin PBXTargetDependency section */
 		AF5230C51BF6B36500D763CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF5230AE1BF6B36500D763CB /* BlueberrieAndRaspberries */;
+			target = AF5230AE1BF6B36500D763CB /* BlueberryAndRaspberries */;
 			targetProxy = AF5230C41BF6B36500D763CB /* PBXContainerItemProxy */;
 		};
 		AF5230D01BF6B36500D763CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF5230AE1BF6B36500D763CB /* BlueberrieAndRaspberries */;
+			target = AF5230AE1BF6B36500D763CB /* BlueberryAndRaspberries */;
 			targetProxy = AF5230CF1BF6B36500D763CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AF5230B61BF6B36500D763CB /* Main.storyboard */ = {
+		AFD2081E1BF83F93000DE448 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AF5230B71BF6B36500D763CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AF5230BB1BF6B36500D763CB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF5230BC1BF6B36500D763CB /* Base */,
+				AFD2081F1BF83F93000DE448 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AFD208201BF83F93000DE448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD208211BF83F93000DE448 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -397,10 +411,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BlueberrieAndRaspberries/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/BlueberryAndRaspberries/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryanhuebert.BlueberrieAndRaspberries;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanhuebert.BlueberryAndRaspberries;
+				PRODUCT_NAME = BlueberryAndRaspberries;
 			};
 			name = Debug;
 		};
@@ -408,10 +422,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BlueberrieAndRaspberries/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/BlueberryAndRaspberries/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryanhuebert.BlueberrieAndRaspberries;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanhuebert.BlueberryAndRaspberries;
+				PRODUCT_NAME = BlueberryAndRaspberries;
 			};
 			name = Release;
 		};
@@ -422,8 +436,8 @@
 				INFOPLIST_FILE = BlueberrieAndRaspberriesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryanhuebert.BlueberrieAndRaspberriesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueberrieAndRaspberries.app/BlueberrieAndRaspberries";
+				PRODUCT_NAME = BlueberryAndRaspberries;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueberryAndRaspberries.app/BlueberryAndRaspberries";
 			};
 			name = Debug;
 		};
@@ -434,8 +448,8 @@
 				INFOPLIST_FILE = BlueberrieAndRaspberriesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryanhuebert.BlueberrieAndRaspberriesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueberrieAndRaspberries.app/BlueberrieAndRaspberries";
+				PRODUCT_NAME = BlueberryAndRaspberries;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueberryAndRaspberries.app/BlueberryAndRaspberries";
 			};
 			name = Release;
 		};
@@ -445,7 +459,7 @@
 				INFOPLIST_FILE = BlueberrieAndRaspberriesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryanhuebert.BlueberrieAndRaspberriesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BlueberryAndRaspberries;
 				TEST_TARGET_NAME = BlueberrieAndRaspberries;
 				USES_XCTRUNNER = YES;
 			};
@@ -457,7 +471,7 @@
 				INFOPLIST_FILE = BlueberrieAndRaspberriesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryanhuebert.BlueberrieAndRaspberriesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BlueberryAndRaspberries;
 				TEST_TARGET_NAME = BlueberrieAndRaspberries;
 				USES_XCTRUNNER = YES;
 			};
@@ -466,7 +480,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF5230AA1BF6B36500D763CB /* Build configuration list for PBXProject "BlueberrieAndRaspberries" */ = {
+		AF5230AA1BF6B36500D763CB /* Build configuration list for PBXProject "BlueberryAndRaspberries" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF5230D51BF6B36500D763CB /* Debug */,
@@ -475,29 +489,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF5230D71BF6B36500D763CB /* Build configuration list for PBXNativeTarget "BlueberrieAndRaspberries" */ = {
+		AF5230D71BF6B36500D763CB /* Build configuration list for PBXNativeTarget "BlueberryAndRaspberries" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF5230D81BF6B36500D763CB /* Debug */,
 				AF5230D91BF6B36500D763CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		AF5230DA1BF6B36500D763CB /* Build configuration list for PBXNativeTarget "BlueberrieAndRaspberriesTests" */ = {
+		AF5230DA1BF6B36500D763CB /* Build configuration list for PBXNativeTarget "BlueberryAndRaspberriesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF5230DB1BF6B36500D763CB /* Debug */,
 				AF5230DC1BF6B36500D763CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		AF5230DD1BF6B36500D763CB /* Build configuration list for PBXNativeTarget "BlueberrieAndRaspberriesUITests" */ = {
+		AF5230DD1BF6B36500D763CB /* Build configuration list for PBXNativeTarget "BlueberryAndRaspberriesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF5230DE1BF6B36500D763CB /* Debug */,
 				AF5230DF1BF6B36500D763CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

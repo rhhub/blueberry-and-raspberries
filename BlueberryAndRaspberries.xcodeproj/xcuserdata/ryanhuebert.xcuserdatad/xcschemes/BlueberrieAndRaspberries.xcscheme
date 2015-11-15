@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF5230AE1BF6B36500D763CB"
-               BuildableName = "BlueberrieAndRaspberries.app"
-               BlueprintName = "BlueberrieAndRaspberries"
-               ReferencedContainer = "container:BlueberrieAndRaspberries.xcodeproj">
+               BuildableName = "BlueberryAndRaspberries.app"
+               BlueprintName = "BlueberryAndRaspberries"
+               ReferencedContainer = "container:BlueberryAndRaspberries.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF5230C21BF6B36500D763CB"
-               BuildableName = "BlueberrieAndRaspberriesTests.xctest"
-               BlueprintName = "BlueberrieAndRaspberriesTests"
-               ReferencedContainer = "container:BlueberrieAndRaspberries.xcodeproj">
+               BuildableName = "BlueberryAndRaspberries.xctest"
+               BlueprintName = "BlueberryAndRaspberriesTests"
+               ReferencedContainer = "container:BlueberryAndRaspberries.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF5230CD1BF6B36500D763CB"
-               BuildableName = "BlueberrieAndRaspberriesUITests.xctest"
-               BlueprintName = "BlueberrieAndRaspberriesUITests"
-               ReferencedContainer = "container:BlueberrieAndRaspberries.xcodeproj">
+               BuildableName = "BlueberryAndRaspberries.xctest"
+               BlueprintName = "BlueberryAndRaspberriesUITests"
+               ReferencedContainer = "container:BlueberryAndRaspberries.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF5230AE1BF6B36500D763CB"
-            BuildableName = "BlueberrieAndRaspberries.app"
-            BlueprintName = "BlueberrieAndRaspberries"
-            ReferencedContainer = "container:BlueberrieAndRaspberries.xcodeproj">
+            BuildableName = "BlueberryAndRaspberries.app"
+            BlueprintName = "BlueberryAndRaspberries"
+            ReferencedContainer = "container:BlueberryAndRaspberries.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF5230AE1BF6B36500D763CB"
-            BuildableName = "BlueberrieAndRaspberries.app"
-            BlueprintName = "BlueberrieAndRaspberries"
-            ReferencedContainer = "container:BlueberrieAndRaspberries.xcodeproj">
+            BuildableName = "BlueberryAndRaspberries.app"
+            BlueprintName = "BlueberryAndRaspberries"
+            ReferencedContainer = "container:BlueberryAndRaspberries.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF5230AE1BF6B36500D763CB"
-            BuildableName = "BlueberrieAndRaspberries.app"
-            BlueprintName = "BlueberrieAndRaspberries"
-            ReferencedContainer = "container:BlueberrieAndRaspberries.xcodeproj">
+            BuildableName = "BlueberryAndRaspberries.app"
+            BlueprintName = "BlueberryAndRaspberries"
+            ReferencedContainer = "container:BlueberryAndRaspberries.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

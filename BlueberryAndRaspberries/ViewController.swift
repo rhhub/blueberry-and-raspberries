@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var blueberryImage: UIImageView!
+    @IBOutlet weak var raspberryImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +23,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func toggleBlueberry(sender: UIButton) {
+        blueberryImage.hidden = !blueberryImage.hidden
+    }
+    @IBAction func toggleRaspberry(sender: UIButton) {
+        raspberryImage.hidden = !raspberryImage.hidden
+    }
 
 }
 

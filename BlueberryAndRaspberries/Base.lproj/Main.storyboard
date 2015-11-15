@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BlueberryAndRaspberries" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PGE-Nr-ZWU">
+                                <rect key="frame" x="295" y="20" width="10" height="560"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="SAP-2p-pYh"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" image="blueberry" translatesAutoresizingMaskIntoConstraints="NO" id="T4i-A2-bG8">
+                                <rect key="frame" x="305" y="20" width="275" height="316"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="raspberries" translatesAutoresizingMaskIntoConstraints="NO" id="pJs-AQ-e2R">
+                                <rect key="frame" x="20" y="20" width="275" height="316"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRV-Vm-EFT">
+                                <rect key="frame" x="20" y="344" width="280" height="32"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="Toggle Raspberry">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleRaspberry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VjT-6c-fdT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z1w-yE-dPn">
+                                <rect key="frame" x="300" y="344" width="280" height="32"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="Toggle Blueberry"/>
+                                <connections>
+                                    <action selector="toggleBlueberry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UtV-dY-88u"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PGE-Nr-ZWU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="14o-EX-EWH"/>
+                            <constraint firstItem="PGE-Nr-ZWU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="29P-BY-F6f"/>
+                            <constraint firstItem="PGE-Nr-ZWU" firstAttribute="leading" secondItem="pJs-AQ-e2R" secondAttribute="trailing" id="3fF-zt-Pvd"/>
+                            <constraint firstItem="T4i-A2-bG8" firstAttribute="leading" secondItem="PGE-Nr-ZWU" secondAttribute="trailing" id="GNq-27-dlp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="z1w-yE-dPn" secondAttribute="trailing" id="Ktv-Ze-yPe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="T4i-A2-bG8" secondAttribute="trailing" id="QZr-wY-YoB"/>
+                            <constraint firstItem="QRV-Vm-EFT" firstAttribute="height" secondItem="z1w-yE-dPn" secondAttribute="height" id="WmW-Z3-oOU"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="pJs-AQ-e2R" secondAttribute="leading" id="XsV-N7-j2B"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PGE-Nr-ZWU" secondAttribute="bottom" constant="20" id="aH4-Mo-30K"/>
+                            <constraint firstItem="QRV-Vm-EFT" firstAttribute="top" secondItem="z1w-yE-dPn" secondAttribute="top" id="c2S-mD-P4Q"/>
+                            <constraint firstItem="z1w-yE-dPn" firstAttribute="leading" secondItem="QRV-Vm-EFT" secondAttribute="trailing" id="eeb-AC-qhp"/>
+                            <constraint firstItem="z1w-yE-dPn" firstAttribute="top" secondItem="T4i-A2-bG8" secondAttribute="bottom" constant="8" id="hL1-H5-bmz"/>
+                            <constraint firstItem="pJs-AQ-e2R" firstAttribute="height" secondItem="T4i-A2-bG8" secondAttribute="height" id="m5U-9E-JE0"/>
+                            <constraint firstItem="QRV-Vm-EFT" firstAttribute="width" secondItem="z1w-yE-dPn" secondAttribute="width" id="n42-ph-Ykq"/>
+                            <constraint firstItem="QRV-Vm-EFT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qTD-C0-W5O"/>
+                            <constraint firstItem="pJs-AQ-e2R" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="w5G-M7-otl"/>
+                            <constraint firstItem="T4i-A2-bG8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="xO5-rZ-GYg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blueberryImage" destination="T4i-A2-bG8" id="I8c-qp-YIh"/>
+                        <outlet property="raspberryImage" destination="pJs-AQ-e2R" id="aER-h2-88C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blueberry" width="300" height="316"/>
+        <image name="raspberries" width="299" height="178"/>
+    </resources>
+</document>
